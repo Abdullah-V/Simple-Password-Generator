@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passwod Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div id="container">
+            <p class="texts">Values</p>
+            <input type="text" class="input" value="qwertyuiop[]asdfghjkl;'\zxcvbnm,./~`!@#$%^&*()_+-'1234567890" placeholder="enter values">
+            <p class="texts2">Count</p>
+            <input type="text" class="input2" value="10" placeholder="Count">  
+            <p id="result" onmouseover="over()">Random Password</p>          
+            <button id="generate" onclick="start()">Generate</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
